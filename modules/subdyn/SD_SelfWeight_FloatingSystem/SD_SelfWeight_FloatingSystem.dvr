@@ -16,7 +16,7 @@ False               Echo           - Echo the input file data (flag)
 0                        SubRotateZ     - Rotation angle of the structure geometry in [deg] about the global Z axis.
 ---------------------- INPUTS -------------------------------------------------------------------
 2                   InputsMod      - Inputs model {0: all inputs are zero for every timestep, 1: steady state inputs, 2: read inputs from a file (InputsFile)} (switch)
-"Prescribed_rotation.txt"          - InputsFile     - Name of the inputs file if InputsMod = 2.
+"Prescribed_rotation.dat"          - InputsFile     - Name of the inputs file if InputsMod = 2.
 ---------------------- STEADY INPUTS (for InputsMod = 1) ----------------------------------------
 0.0  0.0  0.0  0.0  0.0  0.0   uTPInSteady       - input displacements and rotations ( m, rads )
 0.0  0.0  0.0  0.0  0.0  0.0   uDotTPInSteady    - input translational and rotational velocities ( m/s, rads/s)
