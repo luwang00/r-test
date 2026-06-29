@@ -1,4 +1,4 @@
-# cable Verification
+# Cable Verification
 
 One cantilever beam with a pretensioned cable attached at the free-end. The system is subject to the gravity acceleration.
 
