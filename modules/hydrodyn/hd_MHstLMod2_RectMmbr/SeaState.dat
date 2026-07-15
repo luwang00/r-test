@@ -54,7 +54,7 @@ FALSE            WvSumQTF       - Full summation-frequency  2nd-order wave kinem
              0   CurrNSDir      - Near-surface current heading direction         (degrees) [used only when CurrMod=1]
              0   CurrDIV        - Depth-independent current velocity                 (m/s) [used only when CurrMod=1]
              0   CurrDIDir      - Depth-independent current heading direction    (degrees) [used only when CurrMod=1]
-    "not_used"   CurrFile   - User-defined current profile file (ASCII depth, speed, heading table) [used only when CurrMod=3]
+    "not_used"   CurrFile       - User-defined current profile file (ASCII depth below SWL (<=0), x-velocity, y-velocity table) [used only when CurrMod=3]
 ---------------------- MACCAMY-FUCHS ------------------------------------------- {does not support WaveMod=0 or WaveMod=6}
              0   MCFD           - Diameter of HydroDyn members to have the MacCamy-Fuchs diffraction correction (m) [Must set MCFD<=0 to skip when WaveMod=0 or WaveMod=6]
 ---------------------- OUTPUT --------------------------------------------------
