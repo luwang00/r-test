@@ -156,7 +156,7 @@ GSJointID      GSJointxi      GSJointyi      GSJointzi
 ======  General support structure members  ==========================================================
 0                     NumGSMembers
 GSMemberID  GSMJointID1  GSMJointID2     GSMDia1       GSMDia2     GSMCd1        GSMCd2        GSMTI1       GSMTI2       GSMDiv
-(-)            (-)          (-)           (m)           (m)          (-)           (-)          (-)          (-)           (-)
+(-)            (-)          (-)           (m)           (m)          (-)           (-)          (-)          (-)           (m)
 ======  Outputs  ====================================================================================
 False                  SumPrint    - Generate a summary file listing input options and interpolated properties to "<rootname>.AD.sum"? (flag)
 0                      NBlOuts     - Number of blade node outputs [0 - 9] (-)
