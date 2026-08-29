@@ -4,9 +4,9 @@ Floating MHK turbine hydrodynamic input properties, based on the RM1 tidal curre
 False                  Echo        - Echo the input to "<rootname>.AD.ech"? (flag)
 "default"              DTAero      - Time interval for aerodynamic calculations {or "default"} (s)
 1                      Wake_Mod    - Wake/induction model (switch) {0=none, 1=BEMT, 3=OLAF} [Wake_Mod cannot be 2 or 3 when linearizing]
-1                      TwrPotent   - Type tower influence on wind based on potential flow around the tower (switch) {0=none, 1=baseline potential flow, 2=potential flow with Bak correction}
+0                      TwrPotent   - Type tower influence on wind based on potential flow around the tower (switch) {0=none, 1=baseline potential flow, 2=potential flow with Bak correction}
 0                      TwrShadow   - Calculate tower influence on wind based on downstream tower shadow (switch) {0=none, 1=Powles model, 2=Eames model}
-True                   TwrAero     - Calculate tower aerodynamic loads? (flag)
+False                  TwrAero     - Calculate tower aerodynamic loads? (flag)
 0                      GSPotent   - Type generalized support (GS) structure influence on wind based on potential flow around the GS members (switch) {0=none, 1=baseline potential flow, 2=potential flow with Bak correction}
 0                      GSShadow   - Calculate GS influence on wind based on downstream shadow (switch) {0=none, 1=Powles model, 2=Eames model}
 False                  GSAero     - Calculate GS aerodynamic loads? (flag)
