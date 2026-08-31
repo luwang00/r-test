@@ -13,3 +13,4 @@ ad_VerticalAxis_OLAF
 ad_MHK_RM1_Fixed
 ad_MHK_RM1_Floating
 ad_5MW_GSPotent
+ad_AWT_GSShadow
